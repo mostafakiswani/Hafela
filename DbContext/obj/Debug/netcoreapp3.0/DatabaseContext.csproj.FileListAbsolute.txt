@@ -1,0 +1,11 @@
+C:\Users\mkisw\source\repos\Hafela\DbContext\bin\Debug\netcoreapp3.0\DatabaseContext.deps.json
+C:\Users\mkisw\source\repos\Hafela\DbContext\bin\Debug\netcoreapp3.0\DatabaseContext.dll
+C:\Users\mkisw\source\repos\Hafela\DbContext\obj\Debug\netcoreapp3.0\DatabaseContext.csprojAssemblyReference.cache
+C:\Users\mkisw\source\repos\Hafela\DbContext\obj\Debug\netcoreapp3.0\DatabaseContext.AssemblyInfoInputs.cache
+C:\Users\mkisw\source\repos\Hafela\DbContext\obj\Debug\netcoreapp3.0\DatabaseContext.AssemblyInfo.cs
+C:\Users\mkisw\source\repos\Hafela\DbContext\bin\Debug\netcoreapp3.0\Entities.dll
+C:\Users\mkisw\source\repos\Hafela\DbContext\bin\Debug\netcoreapp3.0\Entities.pdb
+C:\Users\mkisw\source\repos\Hafela\DbContext\obj\Debug\netcoreapp3.0\DatabaseContext.csproj.CopyComplete
+C:\Users\mkisw\source\repos\Hafela\DbContext\bin\Debug\netcoreapp3.0\DatabaseContext.pdb
+C:\Users\mkisw\source\repos\Hafela\DbContext\obj\Debug\netcoreapp3.0\DatabaseContext.dll
+C:\Users\mkisw\source\repos\Hafela\DbContext\obj\Debug\netcoreapp3.0\DatabaseContext.pdb
