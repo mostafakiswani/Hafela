@@ -6,7 +6,7 @@ using Services;
 
 namespace Services.Region
 {
-    public class Methods
+    public class RegionServices
     {
         static TimeZoneInfo timezone = TimeZoneInfo.FindSystemTimeZoneById(Variables.RegionKey);
 
@@ -17,9 +17,7 @@ namespace Services.Region
 
         public static DateTime CurrentDate()
         {
-            var now = TimeZoneInfo.ConvertTime(DateTime.Now, timezone);
-
-            return now.Date;
+            return TimeZoneInfo.ConvertTime(DateTime.Now, timezone).Date;
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Services.Notifications
 {
-    public class Notification
+    public class NotificationDto
     {
         public string Title { get; set; }
         public string Body { get; set; }

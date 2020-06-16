@@ -6,26 +6,22 @@ using System.Linq;
 
 namespace DataLayer
 {
-    public class UserService
+    public class UsersRepository
     {
         static Database _context = new Database();
 
 
-        public static List<User> GetAll()
+        public List<User> GetAll()
         {
-            var users = _context.Users.ToList();
-
-            return users;
+            return _context.Users.ToList();
         }
 
-        public static User GetById(int Id)
+        public User GetById(int Id)
         {
-            var user = _context.Users.FirstOrDefault(x => x.Id == Id);
-
-            return user;
+            return _context.Users.FirstOrDefault(x => x.Id == Id);
         }
 
-        public static User Add(User user)
+        public User Add(User user)
         {
             _context.Users.Add(user);
             _context.SaveChanges();
@@ -33,7 +29,7 @@ namespace DataLayer
             return user;
         }
 
-        public static User Edit(User user)
+        public User Edit(User user)
         {
             var userFromDb = GetById(user.Id);
 
@@ -45,7 +41,7 @@ namespace DataLayer
             return user;
         }
 
-        public static void Block(User user)
+        public void Block(User user)
         {
             var userFromDb = GetById(user.Id);
 
@@ -56,7 +52,7 @@ namespace DataLayer
 
         }
 
-        public static void Delete(User user)
+        public void Delete(User user)
         {
             var userFromDb = GetById(user.Id);
 

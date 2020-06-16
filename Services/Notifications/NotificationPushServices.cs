@@ -7,14 +7,14 @@ using System.Text;
 
 namespace Services.Notifications
 {
-    public class PushNotification
+    public class NotificationPushServices
     {
          const string firebaseApiKey = Variables.FirebaseApiKey;
          const string firebaseUser = Variables.FirebaseUser;
          const string appName = Variables.AppName;
          const string priority = "High";
 
-        public async static void Push(string deviceToken, Notification notification)
+        public async static void Push(string deviceToken, NotificationDto notification)
         {
             notification.Priority = priority;
             notification.Title = appName;
@@ -23,7 +23,7 @@ namespace Services.Notifications
             await fcmClient.SendAsync(deviceToken, new { data = notification });
         }
 
-        public async static void Push(string deviceToken, int busId, Notification notification)
+        public async static void Push(string deviceToken, int busId, NotificationDto notification)
         {
             notification.Priority = priority;
             notification.Title = appName;
