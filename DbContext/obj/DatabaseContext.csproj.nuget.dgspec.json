@@ -30,8 +30,8 @@
               "C:\\Users\\mkisw\\source\\repos\\Hafela\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\mkisw\\source\\repos\\Hafela\\Hafela\\Hafela.csproj": {
-                "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\Hafela\\Hafela.csproj"
+              "C:\\Users\\mkisw\\source\\repos\\Hafela\\Settings\\Settings.csproj": {
+                "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\Settings\\Settings.csproj"
               }
             }
           }
@@ -77,9 +77,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -140,14 +137,14 @@
         }
       }
     },
-    "C:\\Users\\mkisw\\source\\repos\\Hafela\\Hafela\\Hafela.csproj": {
+    "C:\\Users\\mkisw\\source\\repos\\Hafela\\Settings\\Settings.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mkisw\\source\\repos\\Hafela\\Hafela\\Hafela.csproj",
-        "projectName": "Hafela",
-        "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\Hafela\\Hafela.csproj",
+        "projectUniqueName": "C:\\Users\\mkisw\\source\\repos\\Hafela\\Settings\\Settings.csproj",
+        "projectName": "Settings",
+        "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\Settings\\Settings.csproj",
         "packagesPath": "C:\\Users\\mkisw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\Hafela\\obj\\",
+        "outputPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\Settings\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mkisw\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -174,23 +171,7 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[3.1.5, )"
             }
@@ -206,9 +187,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

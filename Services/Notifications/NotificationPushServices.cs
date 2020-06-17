@@ -1,7 +1,6 @@
 ﻿using CorePush.Google;
 using DatabaseContext;
 using Entities;
-using Hafela;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -10,9 +9,9 @@ namespace Services.Notifications
 {
     public class NotificationPushServices
     {
-          static string firebaseApiKey = Startup.Configuration["FirebaseApiKey"];
-          static string firebaseUser = Startup.Configuration["FirebaseUser"];
-          static string appName = Startup.Configuration["AppName"];
+          static string firebaseApiKey = Settings.Configurations.FirebaseApiKey;
+          static string firebaseUser = Settings.Configurations.FirebaseUser;
+          static string appName = Settings.Configurations.AppName;
           static string priority = "High";
 
         public async static void Push(string deviceToken, NotificationDto notification)

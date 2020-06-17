@@ -1,0 +1,8 @@
+C:\Users\mkisw\source\repos\Hafela\Settings\bin\Debug\netcoreapp3.0\Settings.deps.json
+C:\Users\mkisw\source\repos\Hafela\Settings\bin\Debug\netcoreapp3.0\Settings.dll
+C:\Users\mkisw\source\repos\Hafela\Settings\obj\Debug\netcoreapp3.0\Settings.csprojAssemblyReference.cache
+C:\Users\mkisw\source\repos\Hafela\Settings\obj\Debug\netcoreapp3.0\Settings.AssemblyInfoInputs.cache
+C:\Users\mkisw\source\repos\Hafela\Settings\obj\Debug\netcoreapp3.0\Settings.AssemblyInfo.cs
+C:\Users\mkisw\source\repos\Hafela\Settings\bin\Debug\netcoreapp3.0\Settings.pdb
+C:\Users\mkisw\source\repos\Hafela\Settings\obj\Debug\netcoreapp3.0\Settings.dll
+C:\Users\mkisw\source\repos\Hafela\Settings\obj\Debug\netcoreapp3.0\Settings.pdb

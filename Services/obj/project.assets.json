@@ -1319,9 +1319,9 @@
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
           "Entities": "1.0.0",
-          "Hafela": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.5",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.5"
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.5",
+          "Settings": "1.0.0"
         },
         "compile": {
           "bin/placeholder/DatabaseContext.dll": {}
@@ -1360,22 +1360,18 @@
           "bin/placeholder/Entities.dll": {}
         }
       },
-      "Hafela/1.0.0": {
+      "Settings/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.5",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.5"
+          "Microsoft.Extensions.Configuration": "3.1.5"
         },
         "compile": {
-          "bin/placeholder/Hafela.dll": {}
+          "bin/placeholder/Settings.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Hafela.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+          "bin/placeholder/Settings.dll": {}
+        }
       }
     }
   },
@@ -5224,17 +5220,16 @@
       "path": "../Entities/Entities.csproj",
       "msbuildProject": "../Entities/Entities.csproj"
     },
-    "Hafela/1.0.0": {
+    "Settings/1.0.0": {
       "type": "project",
-      "path": "../Hafela/Hafela.csproj",
-      "msbuildProject": "../Hafela/Hafela.csproj"
+      "path": "../Settings/Settings.csproj",
+      "msbuildProject": "../Settings/Settings.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "CorePush >= 2.1.1",
       "DataLayer >= 1.0.0",
-      "DatabaseContext >= 1.0.0",
       "Entities >= 1.0.0"
     ]
   },
@@ -5266,9 +5261,6 @@
           "projectReferences": {
             "C:\\Users\\mkisw\\source\\repos\\Hafela\\DataLayer\\DataLayer.csproj": {
               "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\DataLayer\\DataLayer.csproj"
-            },
-            "C:\\Users\\mkisw\\source\\repos\\Hafela\\DbContext\\DatabaseContext.csproj": {
-              "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\DbContext\\DatabaseContext.csproj"
             },
             "C:\\Users\\mkisw\\source\\repos\\Hafela\\Entities\\Entities.csproj": {
               "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\Entities\\Entities.csproj"

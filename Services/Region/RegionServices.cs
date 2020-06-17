@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 using DatabaseContext;
-using Hafela;
 using Services;
 
 namespace Services.Region
 {
     public class RegionServices
     {
-        static TimeZoneInfo timezone = TimeZoneInfo.FindSystemTimeZoneById(Startup.Configuration["RegionKey"]);
+        static TimeZoneInfo timezone = TimeZoneInfo.FindSystemTimeZoneById(Settings.Configurations.RegionKey);
 
         public static DateTime CurrentDateTime()
         {

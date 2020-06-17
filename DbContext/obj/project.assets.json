@@ -1305,22 +1305,18 @@
           "bin/placeholder/Entities.dll": {}
         }
       },
-      "Hafela/1.0.0": {
+      "Settings/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.5",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.5"
+          "Microsoft.Extensions.Configuration": "3.1.5"
         },
         "compile": {
-          "bin/placeholder/Hafela.dll": {}
+          "bin/placeholder/Settings.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Hafela.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+          "bin/placeholder/Settings.dll": {}
+        }
       }
     }
   },
@@ -5062,20 +5058,20 @@
       "path": "../Entities/Entities.csproj",
       "msbuildProject": "../Entities/Entities.csproj"
     },
-    "Hafela/1.0.0": {
+    "Settings/1.0.0": {
       "type": "project",
-      "path": "../Hafela/Hafela.csproj",
-      "msbuildProject": "../Hafela/Hafela.csproj"
+      "path": "../Settings/Settings.csproj",
+      "msbuildProject": "../Settings/Settings.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "Entities >= 1.0.0",
-      "Hafela >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.5",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.5",
-      "Microsoft.EntityFrameworkCore.Tools >= 3.1.5"
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.5",
+      "Settings >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5107,8 +5103,8 @@
             "C:\\Users\\mkisw\\source\\repos\\Hafela\\Entities\\Entities.csproj": {
               "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\Entities\\Entities.csproj"
             },
-            "C:\\Users\\mkisw\\source\\repos\\Hafela\\Hafela\\Hafela.csproj": {
-              "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\Hafela\\Hafela.csproj"
+            "C:\\Users\\mkisw\\source\\repos\\Hafela\\Settings\\Settings.csproj": {
+              "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\Settings\\Settings.csproj"
             }
           }
         }
@@ -5154,9 +5150,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

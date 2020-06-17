@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entiti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{4D5CFDEE-847B-4974-BD26-38E93064C8FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{77321418-E17C-4194-A92E-B81ACFB95FD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLayer", "DataLayer\DataLayer.csproj", "{77321418-E17C-4194-A92E-B81ACFB95FD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseContext", "DbContext\DatabaseContext.csproj", "{541DB4DC-D04E-4D26-B495-3611EB3BFC36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseContext", "DbContext\DatabaseContext.csproj", "{541DB4DC-D04E-4D26-B495-3611EB3BFC36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Settings", "Settings\Settings.csproj", "{936DFF17-0CF1-4D1C-B04C-8CBC6F760061}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{541DB4DC-D04E-4D26-B495-3611EB3BFC36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{541DB4DC-D04E-4D26-B495-3611EB3BFC36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{541DB4DC-D04E-4D26-B495-3611EB3BFC36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{936DFF17-0CF1-4D1C-B04C-8CBC6F760061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936DFF17-0CF1-4D1C-B04C-8CBC6F760061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936DFF17-0CF1-4D1C-B04C-8CBC6F760061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936DFF17-0CF1-4D1C-B04C-8CBC6F760061}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

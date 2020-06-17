@@ -11,9 +11,5 @@ C:\Users\mkisw\source\repos\Hafela\DataLayer\bin\Debug\netcoreapp3.0\Entities.pd
 C:\Users\mkisw\source\repos\Hafela\DataLayer\obj\Debug\netcoreapp3.0\DataLayer.csproj.CopyComplete
 C:\Users\mkisw\source\repos\Hafela\DataLayer\obj\Debug\netcoreapp3.0\DataLayer.dll
 C:\Users\mkisw\source\repos\Hafela\DataLayer\obj\Debug\netcoreapp3.0\DataLayer.pdb
-C:\Users\mkisw\source\repos\Hafela\DataLayer\bin\Debug\netcoreapp3.0\appsettings.Development.json
-C:\Users\mkisw\source\repos\Hafela\DataLayer\bin\Debug\netcoreapp3.0\appsettings.json
-C:\Users\mkisw\source\repos\Hafela\DataLayer\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
-C:\Users\mkisw\source\repos\Hafela\DataLayer\bin\Debug\netcoreapp3.0\Hafela.exe
-C:\Users\mkisw\source\repos\Hafela\DataLayer\bin\Debug\netcoreapp3.0\Hafela.dll
-C:\Users\mkisw\source\repos\Hafela\DataLayer\bin\Debug\netcoreapp3.0\Hafela.pdb
+C:\Users\mkisw\source\repos\Hafela\DataLayer\bin\Debug\netcoreapp3.0\Settings.dll
+C:\Users\mkisw\source\repos\Hafela\DataLayer\bin\Debug\netcoreapp3.0\Settings.pdb
