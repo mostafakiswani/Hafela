@@ -13,3 +13,9 @@ C:\Users\mkisw\source\repos\Hafela\Services\bin\Debug\netcoreapp3.0\DatabaseCont
 C:\Users\mkisw\source\repos\Hafela\Services\bin\Debug\netcoreapp3.0\DataLayer.dll
 C:\Users\mkisw\source\repos\Hafela\Services\bin\Debug\netcoreapp3.0\DataLayer.pdb
 C:\Users\mkisw\source\repos\Hafela\Services\bin\Debug\netcoreapp3.0\DatabaseContext.pdb
+C:\Users\mkisw\source\repos\Hafela\Services\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\mkisw\source\repos\Hafela\Services\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\mkisw\source\repos\Hafela\Services\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\mkisw\source\repos\Hafela\Services\bin\Debug\netcoreapp3.0\Hafela.exe
+C:\Users\mkisw\source\repos\Hafela\Services\bin\Debug\netcoreapp3.0\Hafela.dll
+C:\Users\mkisw\source\repos\Hafela\Services\bin\Debug\netcoreapp3.0\Hafela.pdb

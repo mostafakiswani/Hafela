@@ -1,4 +1,5 @@
 ﻿using Entities;
+using Services.Helpers;
 using Services.Logs;
 using System;
 using System.Collections.Generic;
@@ -11,30 +12,33 @@ namespace Services.Notifications
         public static void Send(User user)
         {
             string body = "Welcome User";
+            var Id = ConverterServices.ConvertGuid(user.Id);
 
-            var notification = new NotificationDto() { Body = body, UserId = user.Id};
+            var notification = new NotificationDto() { Body = body, UserId = Id };
 
             NotificationPushServices.Push(user.DeviceToken, notification);
-            LogsService.Add(body, user.Id);
+            LogsService.Add(body, Id);
 
         }
 
         public static void Send(User user, string body)
         {
+            var Id = ConverterServices.ConvertGuid(user.Id);
 
-            var notification = new NotificationDto() { Body = body, UserId = user.Id };
+            var notification = new NotificationDto() { Body = body, UserId = Id };
 
             NotificationPushServices.Push(user.DeviceToken, notification);
-            LogsService.Add(body, user.Id);
+            LogsService.Add(body, Id);
 
         }
         public static void Send(User user, string body, int busId)
         {
+            var Id = ConverterServices.ConvertGuid(user.Id);
 
-            var notification = new NotificationDto() { Body = body, UserId = user.Id };
+            var notification = new NotificationDto() { Body = body, UserId = Id };
 
             NotificationPushServices.Push(user.DeviceToken, busId, notification);
-            LogsService.Add(body, user.Id);
+            LogsService.Add(body, Id);
 
         }
 
@@ -42,10 +46,12 @@ namespace Services.Notifications
         {
             foreach (var user in users)
             {
-                var notification = new NotificationDto() { Body = body, UserId = user.Id };
+                var Id = ConverterServices.ConvertGuid(user.Id);
+
+                var notification = new NotificationDto() { Body = body, UserId = Id };
 
                 NotificationPushServices.Push(user.DeviceToken, notification);
-                LogsService.Add(body, user.Id);
+                LogsService.Add(body, Id);
 
             }
         }

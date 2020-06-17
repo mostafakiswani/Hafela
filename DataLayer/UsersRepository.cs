@@ -6,62 +6,24 @@ using System.Linq;
 
 namespace DataLayer
 {
-    public class UsersRepository
+    public class UsersRepository : IUsersRepository
     {
-        static Database _context = new Database();
+        private IRepository<User> repository;
+        public UsersRepository(IRepository<User> repository)
+        { this.repository = repository; }
 
 
-        public List<User> GetAll()
+        public void Block(Guid id)
         {
-            return _context.Users.ToList();
-        }
-
-        public User GetById(int Id)
-        {
-            return _context.Users.FirstOrDefault(x => x.Id == Id);
-        }
-
-        public User Add(User user)
-        {
-            _context.Users.Add(user);
-            _context.SaveChanges();
-
-            return user;
-        }
-
-        public User Edit(User user)
-        {
-            var userFromDb = GetById(user.Id);
-
-            userFromDb = user;
-
-            _context.Users.Update(userFromDb);
-            _context.SaveChanges();
-
-            return user;
-        }
-
-        public void Block(User user)
-        {
-            var userFromDb = GetById(user.Id);
+            var userFromDb = repository.GetById(id);
 
             userFromDb.IsBlocked = true;
 
-            _context.Users.Update(userFromDb);
-            _context.SaveChanges();
+            repository.Update(userFromDb);
 
         }
 
-        public void Delete(User user)
-        {
-            var userFromDb = GetById(user.Id);
 
-            userFromDb.IsDeleted = true;
-
-            _context.Users.Update(userFromDb);
-            _context.SaveChanges();
-
-        }
 
 
 

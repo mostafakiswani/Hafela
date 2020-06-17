@@ -1,5 +1,6 @@
 ﻿using DataLayer;
 using Entities;
+using Services.Region;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,27 +9,23 @@ namespace Services.Logs
 {
     public class LogsService
     {
-        static LogsRepository repository = new LogsRepository();
+        private static IRepository<Log> repository;
+        public LogsService(IRepository<Log> repository)
+        { LogsService.repository = repository; }
 
         public static void Add(string action)
         {
-            var log = new Log();
+            var log = new Log() { Action = action, CreatedAt = RegionServices.CurrentDateTime()};
 
-            log.Action = action;
-            log.AddedAt = Region.RegionServices.CurrentDateTime();
-
-            var createdLog = repository.Add(log);
+            repository.Insert(log);
 
         }
 
-        public static void Add(string action, int userId)
+        public static void Add(string action, string userId)
         {
-            var log = new Log();
+            var log = new Log() { Action = string.Format("{0} For {1}", action, userId), CreatedAt = RegionServices.CurrentDateTime() };
 
-            log.Action = string.Format("{0} For {1}", action, userId);
-            log.AddedAt = Region.RegionServices.CurrentDateTime();
-
-            var createdLog = repository.Add(log);
+            repository.Insert(log);
 
         }
 

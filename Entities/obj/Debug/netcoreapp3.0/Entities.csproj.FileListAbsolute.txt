@@ -1,8 +1,8 @@
 C:\Users\mkisw\source\repos\Hafela\Entities\bin\Debug\netcoreapp3.0\Entities.deps.json
 C:\Users\mkisw\source\repos\Hafela\Entities\bin\Debug\netcoreapp3.0\Entities.dll
 C:\Users\mkisw\source\repos\Hafela\Entities\bin\Debug\netcoreapp3.0\Entities.pdb
-C:\Users\mkisw\source\repos\Hafela\Entities\obj\Debug\netcoreapp3.0\Entities.csprojAssemblyReference.cache
 C:\Users\mkisw\source\repos\Hafela\Entities\obj\Debug\netcoreapp3.0\Entities.AssemblyInfoInputs.cache
 C:\Users\mkisw\source\repos\Hafela\Entities\obj\Debug\netcoreapp3.0\Entities.AssemblyInfo.cs
 C:\Users\mkisw\source\repos\Hafela\Entities\obj\Debug\netcoreapp3.0\Entities.dll
 C:\Users\mkisw\source\repos\Hafela\Entities\obj\Debug\netcoreapp3.0\Entities.pdb
+C:\Users\mkisw\source\repos\Hafela\Entities\obj\Debug\netcoreapp3.0\Entities.csprojAssemblyReference.cache

@@ -7,31 +7,23 @@ using System.Text;
 
 namespace DataLayer
 {
-    public class LogsRepository
+    public class LogsRepository : ILogsRepository
     {
-        static Database _context = new Database();
+        private IRepository<Log> repository;
+        public LogsRepository(IRepository<Log> repository)
+        { this.repository = repository; }
 
-        public List<Log> GetAll()
+
+        public void MakeImportant(Guid id)
         {
-            return _context.Logs.ToList();
+            var logFromDb = repository.GetById(id);
+
+            logFromDb.IsImportant = true;
+
+            repository.Update(logFromDb);
+
         }
 
-        public Log GetById(int Id)
-        {
-            return _context.Logs.FirstOrDefault(x => x.Id == Id);
-        }
 
-        public List<Log> GetByDate(DateTime dateTime)
-        {
-            return _context.Logs.Where(x => x.AddedAt.Date == dateTime.Date).ToList();
-        }
-
-        public Log Add(Log log)
-        {
-            _context.Logs.Add(log);
-            _context.SaveChanges();
-
-            return log;
-        }
     }
 }

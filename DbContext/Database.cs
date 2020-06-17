@@ -1,4 +1,5 @@
 ﻿using Entities;
+using Hafela;
 using Microsoft.EntityFrameworkCore;
 using System;
 
@@ -11,7 +12,7 @@ namespace DatabaseContext
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(Variables.ConnectionString);
+            optionsBuilder.UseSqlServer(Startup.Configuration["ConnectionString"]);
         }
     }
 }
