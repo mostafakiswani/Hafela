@@ -5080,9 +5080,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mkisw\\source\\repos\\Hafela\\DbContext\\DatabaseContext.csproj",
-      "projectName": "DatabaseContext",
-      "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\DbContext\\DatabaseContext.csproj",
+      "projectUniqueName": "C:\\Users\\mkisw\\source\\repos\\Hafela\\DbContext\\Context.csproj",
+      "projectName": "Context",
+      "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\DbContext\\Context.csproj",
       "packagesPath": "C:\\Users\\mkisw\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\DbContext\\obj\\",
       "projectStyle": "PackageReference",

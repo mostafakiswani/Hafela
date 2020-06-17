@@ -1,0 +1,15 @@
+C:\Users\mkisw\source\repos\Hafela\DbContext\bin\Debug\netcoreapp3.0\Context.deps.json
+C:\Users\mkisw\source\repos\Hafela\DbContext\bin\Debug\netcoreapp3.0\Context.runtimeconfig.json
+C:\Users\mkisw\source\repos\Hafela\DbContext\bin\Debug\netcoreapp3.0\Context.runtimeconfig.dev.json
+C:\Users\mkisw\source\repos\Hafela\DbContext\bin\Debug\netcoreapp3.0\Context.dll
+C:\Users\mkisw\source\repos\Hafela\DbContext\bin\Debug\netcoreapp3.0\Context.pdb
+C:\Users\mkisw\source\repos\Hafela\DbContext\bin\Debug\netcoreapp3.0\Entities.dll
+C:\Users\mkisw\source\repos\Hafela\DbContext\bin\Debug\netcoreapp3.0\Settings.dll
+C:\Users\mkisw\source\repos\Hafela\DbContext\bin\Debug\netcoreapp3.0\Entities.pdb
+C:\Users\mkisw\source\repos\Hafela\DbContext\bin\Debug\netcoreapp3.0\Settings.pdb
+C:\Users\mkisw\source\repos\Hafela\DbContext\obj\Debug\netcoreapp3.0\Context.csprojAssemblyReference.cache
+C:\Users\mkisw\source\repos\Hafela\DbContext\obj\Debug\netcoreapp3.0\Context.AssemblyInfoInputs.cache
+C:\Users\mkisw\source\repos\Hafela\DbContext\obj\Debug\netcoreapp3.0\Context.AssemblyInfo.cs
+C:\Users\mkisw\source\repos\Hafela\DbContext\obj\Debug\netcoreapp3.0\Context.csproj.CopyComplete
+C:\Users\mkisw\source\repos\Hafela\DbContext\obj\Debug\netcoreapp3.0\Context.dll
+C:\Users\mkisw\source\repos\Hafela\DbContext\obj\Debug\netcoreapp3.0\Context.pdb

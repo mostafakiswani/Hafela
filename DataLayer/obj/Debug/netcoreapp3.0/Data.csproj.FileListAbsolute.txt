@@ -1,0 +1,15 @@
+C:\Users\mkisw\source\repos\Hafela\DataLayer\bin\Debug\netcoreapp3.0\Data.deps.json
+C:\Users\mkisw\source\repos\Hafela\DataLayer\bin\Debug\netcoreapp3.0\Data.dll
+C:\Users\mkisw\source\repos\Hafela\DataLayer\bin\Debug\netcoreapp3.0\Data.pdb
+C:\Users\mkisw\source\repos\Hafela\DataLayer\bin\Debug\netcoreapp3.0\Context.dll
+C:\Users\mkisw\source\repos\Hafela\DataLayer\bin\Debug\netcoreapp3.0\Entities.dll
+C:\Users\mkisw\source\repos\Hafela\DataLayer\bin\Debug\netcoreapp3.0\Settings.dll
+C:\Users\mkisw\source\repos\Hafela\DataLayer\bin\Debug\netcoreapp3.0\Context.pdb
+C:\Users\mkisw\source\repos\Hafela\DataLayer\bin\Debug\netcoreapp3.0\Entities.pdb
+C:\Users\mkisw\source\repos\Hafela\DataLayer\bin\Debug\netcoreapp3.0\Settings.pdb
+C:\Users\mkisw\source\repos\Hafela\DataLayer\obj\Debug\netcoreapp3.0\Data.csprojAssemblyReference.cache
+C:\Users\mkisw\source\repos\Hafela\DataLayer\obj\Debug\netcoreapp3.0\Data.AssemblyInfoInputs.cache
+C:\Users\mkisw\source\repos\Hafela\DataLayer\obj\Debug\netcoreapp3.0\Data.AssemblyInfo.cs
+C:\Users\mkisw\source\repos\Hafela\DataLayer\obj\Debug\netcoreapp3.0\Data.csproj.CopyComplete
+C:\Users\mkisw\source\repos\Hafela\DataLayer\obj\Debug\netcoreapp3.0\Data.dll
+C:\Users\mkisw\source\repos\Hafela\DataLayer\obj\Debug\netcoreapp3.0\Data.pdb

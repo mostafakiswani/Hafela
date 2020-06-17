@@ -1314,7 +1314,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "DatabaseContext/1.0.0": {
+      "Context/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
@@ -1324,31 +1324,25 @@
           "Settings": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DatabaseContext.dll": {}
+          "bin/placeholder/Context.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DatabaseContext.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+          "bin/placeholder/Context.dll": {}
+        }
       },
-      "DataLayer/1.0.0": {
+      "Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
-          "DatabaseContext": "1.0.0",
+          "Context": "1.0.0",
           "Entities": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DataLayer.dll": {}
+          "bin/placeholder/Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DataLayer.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+          "bin/placeholder/Data.dll": {}
+        }
       },
       "Entities/1.0.0": {
         "type": "project",
@@ -5205,15 +5199,15 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "DatabaseContext/1.0.0": {
+    "Context/1.0.0": {
       "type": "project",
-      "path": "../DbContext/DatabaseContext.csproj",
-      "msbuildProject": "../DbContext/DatabaseContext.csproj"
+      "path": "../DbContext/Context.csproj",
+      "msbuildProject": "../DbContext/Context.csproj"
     },
-    "DataLayer/1.0.0": {
+    "Data/1.0.0": {
       "type": "project",
-      "path": "../DataLayer/DataLayer.csproj",
-      "msbuildProject": "../DataLayer/DataLayer.csproj"
+      "path": "../DataLayer/Data.csproj",
+      "msbuildProject": "../DataLayer/Data.csproj"
     },
     "Entities/1.0.0": {
       "type": "project",
@@ -5229,7 +5223,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "CorePush >= 2.1.1",
-      "DataLayer >= 1.0.0",
+      "Data >= 1.0.0",
       "Entities >= 1.0.0"
     ]
   },
@@ -5259,8 +5253,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\mkisw\\source\\repos\\Hafela\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\DataLayer\\DataLayer.csproj"
+            "C:\\Users\\mkisw\\source\\repos\\Hafela\\DataLayer\\Data.csproj": {
+              "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\DataLayer\\Data.csproj"
             },
             "C:\\Users\\mkisw\\source\\repos\\Hafela\\Entities\\Entities.csproj": {
               "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\Entities\\Entities.csproj"
@@ -5293,9 +5287,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

@@ -1267,7 +1267,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "DatabaseContext/1.0.0": {
+      "Context/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
@@ -1277,14 +1277,11 @@
           "Settings": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DatabaseContext.dll": {}
+          "bin/placeholder/Context.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DatabaseContext.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+          "bin/placeholder/Context.dll": {}
+        }
       },
       "Entities/1.0.0": {
         "type": "project",
@@ -5003,10 +5000,10 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "DatabaseContext/1.0.0": {
+    "Context/1.0.0": {
       "type": "project",
-      "path": "../DbContext/DatabaseContext.csproj",
-      "msbuildProject": "../DbContext/DatabaseContext.csproj"
+      "path": "../DbContext/Context.csproj",
+      "msbuildProject": "../DbContext/Context.csproj"
     },
     "Entities/1.0.0": {
       "type": "project",
@@ -5021,7 +5018,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "DatabaseContext >= 1.0.0",
+      "Context >= 1.0.0",
       "Entities >= 1.0.0"
     ]
   },
@@ -5031,9 +5028,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mkisw\\source\\repos\\Hafela\\DataLayer\\DataLayer.csproj",
-      "projectName": "DataLayer",
-      "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\DataLayer\\DataLayer.csproj",
+      "projectUniqueName": "C:\\Users\\mkisw\\source\\repos\\Hafela\\DataLayer\\Data.csproj",
+      "projectName": "Data",
+      "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\DataLayer\\Data.csproj",
       "packagesPath": "C:\\Users\\mkisw\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\DataLayer\\obj\\",
       "projectStyle": "PackageReference",
@@ -5051,8 +5048,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\mkisw\\source\\repos\\Hafela\\DbContext\\DatabaseContext.csproj": {
-              "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\DbContext\\DatabaseContext.csproj"
+            "C:\\Users\\mkisw\\source\\repos\\Hafela\\DbContext\\Context.csproj": {
+              "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\DbContext\\Context.csproj"
             },
             "C:\\Users\\mkisw\\source\\repos\\Hafela\\Entities\\Entities.csproj": {
               "projectPath": "C:\\Users\\mkisw\\source\\repos\\Hafela\\Entities\\Entities.csproj"
@@ -5079,9 +5076,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
